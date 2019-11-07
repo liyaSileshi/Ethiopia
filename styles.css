@@ -53,7 +53,7 @@ body a{
     align-items: center;
     padding: 3em;
     margin: 0;
-    font-size: 2em;
+    font-size: 4em;
     background-image:url('dalol.jpeg'); 
     height: 400px;
     background-attachment: fixed;
@@ -80,15 +80,23 @@ margin: 0;
   align-items: center;
   padding: 3em;
   margin: 0;
-  font-size: 2em;
+  font-size: 4em;
   background-image:url('history.jpeg'); 
+  opacity: 0.9;
   height: 400px;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-color: red;
-  color: white;
+  color: rgba(26, 14, 14, 0.753);
+}
+.history-hero h1{
+ 
+    color: white;
+    /* font-size: 100px; */
+    font-weight: 900;
+
 }
 
 .tourist-hero{
@@ -98,7 +106,7 @@ margin: 0;
   align-items: center;
   padding: 3em;
   margin: 0;
-  font-size: 2em;
+  font-size: 4em;
   background-image:url('tourist.jpeg'); 
   height: 400px;
   background-attachment: fixed;
@@ -140,7 +148,7 @@ body > footer input, button{
 
 .card{
   width: 400px;
-  border: 1px solid black;
+  border: 1px solid rgb(202, 117, 91);
   display: flex;
   flex-direction: column;
   margin: 3em;
@@ -148,7 +156,7 @@ body > footer input, button{
 }
 
 .card > h2 {
-  font-size: 2em;
+  font-size: 1.5em;
   padding: 1em;
 }
 
@@ -158,6 +166,7 @@ body > footer input, button{
 
 .card > *:last-child {
   margin-bottom: 0;
+  margin-top: auto;
 }  
 
 .card > button{
