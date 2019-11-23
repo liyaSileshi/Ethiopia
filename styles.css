@@ -148,7 +148,7 @@ body > footer input, button{
 
 .card{
   width: 400px;
-  border: 1px solid rgb(202, 117, 91);
+  /* border: 1px solid rgb(202, 117, 91); */
   display: flex;
   flex-direction: column;
   margin: 3em;
@@ -157,7 +157,7 @@ body > footer input, button{
 
 .card > h2 {
   font-size: 1.5em;
-  padding: 1em;
+  padding-left: 4em;
 }
 
 .card > h2, .card > p, .card > img{
@@ -172,6 +172,7 @@ body > footer input, button{
 .card > button{
   background-color: #3454e3;
   color: white;
+  border: none;
   /* margin-bottom: 0; */
 }
 
